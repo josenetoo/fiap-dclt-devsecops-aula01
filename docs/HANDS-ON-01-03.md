@@ -416,18 +416,6 @@ aws ecs update-service \
 
 ---
 
-## ✅ Checkpoint
-
-Ao final deste vídeo você deve ter:
-
-- [ ] Executado SQL Injection e extraído senhas
-- [ ] Executado XSS e visto JavaScript rodar
-- [ ] Executado Command Injection e lido arquivos do sistema
-- [ ] Entendido como essas falhas permitem acesso à AWS
-- [ ] Compreendido a importância de ferramentas de segurança no pipeline
-
----
-
 ## 📖 Leitura Complementar
 
 - [OWASP Top 10 2021](https://owasp.org/Top10/)

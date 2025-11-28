@@ -169,9 +169,9 @@ fiap-dclt-devsecops-aula01/
 ├── .gitignore
 ├── .dockerignore
 └── docs/
-    ├── HANDSON-01-01.md
-    ├── HANDSON-01-02.md
-    └── HANDSON-01-03.md
+    ├── HANDS-ON-01-01.md
+    ├── HANDS-ON-01-02.md
+    └── HANDS-ON-01-03.md
 ```
 
 ---
@@ -491,20 +491,6 @@ docker push "$AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/devsecops-app:lates
 | Task não inicia | Imagem não encontrada | Verificar URI da imagem |
 | Não acessa via browser | Security Group | Liberar porta 5000 |
 | `Unable to assume service linked role` | Learner Lab sem permissão | Usar "EC2 instances" com `LabRole` |
-
----
-
-## ✅ Checkpoint
-
-Ao final deste vídeo você deve ter:
-
-- [ ] Fork do repositório na sua conta
-- [ ] AWS CLI configurado com profile `fiapaws`
-- [ ] Imagem Docker buildada localmente
-- [ ] Repositório ECR criado
-- [ ] Imagem no ECR
-- [ ] Cluster e Service ECS rodando
-- [ ] Aplicação acessível no browser
 
 ---
 

@@ -33,9 +33,9 @@ Construir um pipeline CI/CD básico com GitHub Actions para deploy de uma aplica
 ├── .github/
 │   └── workflows/        # (Criado durante a aula)
 └── docs/
-    ├── HANDSON-01-01.md  # Vídeo 1.1 - Setup do Laboratório
-    ├── HANDSON-01-02.md  # Vídeo 1.2 - Pipeline CI/CD
-    ├── HANDSON-01-03.md  # Vídeo 1.3 - Vetores de Ataque
+    ├── HANDS-ON-01-01.md  # Vídeo 1.1 - Setup do Laboratório
+    ├── HANDS-ON-01-02.md  # Vídeo 1.2 - Pipeline CI/CD
+    ├── HANDS-ON-01-03.md  # Vídeo 1.3 - Vetores de Ataque
     └── CHEATSHEET.md     # Comandos rápidos
 ```
 
@@ -48,7 +48,7 @@ Construir um pipeline CI/CD básico com GitHub Actions para deploy de uma aplica
 ## 🚀 Como Usar
 
 1. **Fork** este repositório
-2. Siga os arquivos hands-on em `docs/HANDSON-01-*.md`
+2. Siga os arquivos hands-on em `docs/HANDS-ON-01-*.md`
 3. Configure os secrets no GitHub (instruções no passo a passo)
 
 ## 🔑 Secrets Necessários (AWS Learner Lab)
@@ -63,9 +63,9 @@ Construir um pipeline CI/CD básico com GitHub Actions para deploy de uma aplica
 
 | Vídeo | Hands-on |
 |-------|----------|
-| 01 - Setup do Laboratório | [HANDSON-01-01.md](docs/HANDSON-01-01.md) |
-| 02 - Pipeline CI/CD | [HANDSON-01-02.md](docs/HANDSON-01-02.md) |
-| 03 - Vetores de Ataque | [HANDSON-01-03.md](docs/HANDSON-01-03.md) |
+| 01 - Setup do Laboratório | [HANDS-ON-01-01.md](docs/HANDS-ON-01-01.md) |
+| 02 - Pipeline CI/CD | [HANDS-ON-01-02.md](docs/HANDS-ON-01-02.md) |
+| 03 - Vetores de Ataque | [HANDS-ON-01-03.md](docs/HANDS-ON-01-03.md) |
 
 **Referência rápida**: [Cheatsheet](docs/CHEATSHEET.md)
 

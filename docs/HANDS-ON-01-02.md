@@ -375,15 +375,4 @@ git push origin main
 
 ---
 
-## ✅ Checkpoint
-
-Ao final deste vídeo você deve ter:
-
-- [ ] 3 Secrets configurados no GitHub
-- [ ] Arquivo `.github/workflows/deploy.yml` criado
-- [ ] Pipeline executando com sucesso
-- [ ] Deploy automático funcionando
-
----
-
 **FIM DO VÍDEO 1.2** ✅
