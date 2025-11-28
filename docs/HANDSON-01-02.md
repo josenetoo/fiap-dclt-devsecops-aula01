@@ -119,7 +119,7 @@ graph TB
 
 **Linux/Mac:**
 ```bash
-cd ~/projetos/fiap-dclt-devsecops-aula01
+cd ~/fiap-devsecops/fiap-dclt-devsecops-aula01
 
 # Criar diretório de workflows
 mkdir -p .github/workflows
@@ -297,7 +297,7 @@ graph TB
 
 **Linux/Mac:**
 ```bash
-cd ~/projetos/fiap-dclt-devsecops-aula01
+cd ~/fiap-devsecops/fiap-dclt-devsecops-aula01
 
 # Verificar arquivo criado
 cat .github/workflows/deploy.yml

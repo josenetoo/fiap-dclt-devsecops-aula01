@@ -132,7 +132,7 @@ https://github.com/SEU-USUARIO/fiap-dclt-devsecops-aula01
 **Linux/Mac:**
 ```bash
 # Navegar para pasta de trabalho
-cd ~/projetos
+cd ~/fiap-devsecops
 
 # Clonar SEU fork (substitua SEU-USUARIO)
 git clone https://github.com/SEU-USUARIO/fiap-dclt-devsecops-aula01.git
@@ -296,7 +296,7 @@ aws ecr create-repository `
 
 **Linux/Mac:**
 ```bash
-cd ~/projetos/fiap-dclt-devsecops-aula01
+cd ~/fiap-devsecops/fiap-dclt-devsecops-aula01
 
 # Definir variáveis
 export AWS_PROFILE=fiapaws

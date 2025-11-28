@@ -86,7 +86,7 @@ curl "$APP_URL/user?id=1"
 curl "$APP_URL/search?q=teste"
 ```
 
-**Resultado esperado:**
+**Resultado esperado (`/users`):**
 ```json
 [
   {"id": 1, "username": "admin", "email": "admin@example.com"},
@@ -94,7 +94,17 @@ curl "$APP_URL/search?q=teste"
 ]
 ```
 
-> 📝 Note que a lista de usuários **não mostra as senhas**. Vamos mudar isso...
+**Resultado esperado (`/user?id=1`):**
+```json
+{
+  "id": 1,
+  "username": "admin",
+  "email": "admin@example.com",
+  "password": "admin123"  ← ⚠️ SENHA JÁ EXPOSTA!
+}
+```
+
+> 📝 **Primeira vulnerabilidade**: O endpoint `/user?id=1` já retorna a senha em texto puro! Isso é um problema grave mesmo sem SQL Injection. Agora vamos ver como extrair TODOS os dados...
 
 ---
 
@@ -438,7 +448,7 @@ Ao final deste vídeo você deve ter:
 
 **Linux/Mac:**
 ```bash
-cd ~/projetos/fiap-dclt-devsecops-aula01
+cd ~/fiap-devsecops/fiap-dclt-devsecops-aula01
 
 # Build para arquitetura amd64 (compatível com ECS)
 docker build --platform linux/amd64 -t devsecops-app:vuln .
