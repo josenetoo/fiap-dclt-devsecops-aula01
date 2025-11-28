@@ -13,7 +13,7 @@ env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: devsecops-app
   ECS_CLUSTER: devsecops-cluster-v2
-  ECS_SERVICE: devsecops-service
+  ECS_SERVICE: devsecops-task-service-w9aey81p
   CONTAINER_NAME: devsecops-container
 
 jobs:
