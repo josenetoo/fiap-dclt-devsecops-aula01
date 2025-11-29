@@ -197,7 +197,7 @@ EOF
 
 **Windows (PowerShell):**
 ```powershell
-cd ~\projetos\fiap-dclt-devsecops-aula01
+cd ~\fiap-devsecops\fiap-dclt-devsecops-aula01
 
 # Criar diretório de workflows
 New-Item -ItemType Directory -Force -Path .github/workflows
@@ -314,7 +314,7 @@ git push origin main
 
 **Windows (PowerShell):**
 ```powershell
-cd ~\projetos\fiap-dclt-devsecops-aula01
+cd ~\fiap-devsecops\fiap-dclt-devsecops-aula01
 
 # Verificar arquivo criado
 Get-Content .github/workflows/deploy.yml

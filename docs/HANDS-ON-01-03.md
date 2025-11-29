@@ -453,7 +453,7 @@ curl $APP_URL
 
 **Windows (PowerShell):**
 ```powershell
-cd ~\projetos\fiap-dclt-devsecops-aula01
+cd ~\fiap-devsecops\fiap-dclt-devsecops-aula01
 
 # Build para arquitetura amd64 (compatível com ECS)
 docker build --platform linux/amd64 -t devsecops-app:vuln .

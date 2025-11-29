@@ -147,7 +147,7 @@ ls -la
 **Windows (PowerShell):**
 ```powershell
 # Navegar para pasta de trabalho
-cd ~\projetos
+cd ~\fiap-devsecops
 
 # Clonar SEU fork (substitua SEU-USUARIO)
 git clone https://github.com/SEU-USUARIO/fiap-dclt-devsecops-aula01.git
@@ -312,7 +312,7 @@ docker images | grep devsecops-app
 
 **Windows (PowerShell):**
 ```powershell
-cd ~\projetos\fiap-dclt-devsecops-aula01
+cd ~\fiap-devsecops\fiap-dclt-devsecops-aula01
 
 # Definir variáveis
 $env:AWS_PROFILE="fiapaws"
