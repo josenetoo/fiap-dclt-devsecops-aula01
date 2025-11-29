@@ -149,7 +149,7 @@ def login():
     return jsonify({'error': 'Invalid credentials'}), 401
 
 # ============================================
-# INICIALIZAÇÃO
+# INICIALIZAÇÃO DA APLICAÇÃO
 # ============================================
 
 if __name__ == '__main__':
